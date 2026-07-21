@@ -1,0 +1,22 @@
+{
+    "DESIGN_NAME": "top",
+    
+    "VERILOG_FILES": [
+        "dir::src/top.v"
+    ],
+    
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+    
+    "FP_CORE_UTIL": 35,
+    "PL_TARGET_DENSITY_PCT": 45,
+    
+    "DIE_AREA": "0 0 500 500",
+    
+    "FP_PDN_CORE_RING": false,
+    "RUN_CTS": true,
+    "RUN_DRT": true,
+    
+    "PL_BASIC_PLACEMENT": false,
+    "RUN_HEURISTIC_DIODE_INSERTION": true
+}
